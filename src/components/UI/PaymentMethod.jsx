@@ -41,11 +41,11 @@ const PaymentMethod = () => {
         <label className="d-flex align-items-center gap-2">
           <input
             type="radio"
-            value="cheque"
-            checked={selectedPayment === "cheque"}
+            value="cash"
+            checked={selectedPayment === "cash"}
             onChange={handlePaymentChange}
           />
-          Check Payment
+          Pay Cash
         </label>
       </div>
 
