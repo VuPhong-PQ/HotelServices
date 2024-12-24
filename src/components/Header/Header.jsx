@@ -46,6 +46,8 @@ const Header = () => {
                 </span>
               </div>
             </Col>
+            <Col lg='6'>
+            </Col>
             {/* gán nút đăng nhâp cũ tại đây */}
           </Row>
         </Container>

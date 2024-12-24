@@ -2,8 +2,8 @@ import { Form, Input, Modal, notification } from 'antd';
 import { useFormik } from 'formik';
 import React, { useContext } from 'react';
 import * as yup from 'yup';
-import { useAddUser, useGetUsers } from '../../apis/users.api';
 import AuthContext from '../../contexts/AuthContext';
+import { useAddUser, useGetUsers } from '../../apis/user.api';
 
 const FormRegister = ({ form }) => {
 	return (

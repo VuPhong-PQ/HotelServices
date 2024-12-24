@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
-import ModalAuthentication from '../components/ModalAuthentication';
-import AuthContext from '../contexts/AuthContext';
 import { Avatar, notification } from 'antd';
+import ModalAuthentication from '../ModalAuthentication';
+import AuthContext from '../../contexts/AuthContext';
 
 const Navbar = () => {
 	const [api, contextHolder] = notification.useNotification();
